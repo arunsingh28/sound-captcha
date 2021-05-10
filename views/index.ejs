@@ -1,0 +1,9 @@
+<h1>Convert Text to Speech</h1>
+<form method="post" action="/">
+    <textarea name="text" value="<%=text%>" cols="30" rows="10"></textarea>
+    <input type="submit" value="conver"/>
+    <audio controls>
+        <!-- <source src="voice.mp3" type="audio/ogg"/> -->
+        <source src="<%= file %>" type="audio/mpeg"/>
+    </audio>
+</form>

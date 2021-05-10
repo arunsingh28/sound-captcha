@@ -1,0 +1,25 @@
+{
+  "name": "sound-captcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "dev": "nodemon test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "gtts": "^0.2.1",
+    "gtts.js": "^1.0.1",
+    "node-fetch": "^2.6.1",
+    "node-gtts": "^2.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
